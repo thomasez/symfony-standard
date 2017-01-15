@@ -12,7 +12,7 @@
     },
     "require": {
         "php": ">=5.5.9",
-        "symfony/symfony": "3.3.x-dev",
+        "symfony/symfony": "3.2.*",
         "doctrine/orm": "^2.5",
         "doctrine/doctrine-bundle": "^1.6",
         "doctrine/doctrine-cache-bundle": "^1.2",
@@ -21,6 +21,8 @@
         "symfony/polyfill-apcu": "^1.0",
         "sensio/distribution-bundle": "^5.0",
         "sensio/framework-extra-bundle": "^3.0.2",
+        "jms/security-extra-bundle": "1.6.*@dev",
+        "friendsofsymfony/user-bundle": "2.0.*@dev",
         "incenteev/composer-parameter-handler": "^2.0"
     },
     "require-dev": {
